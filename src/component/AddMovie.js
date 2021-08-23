@@ -24,7 +24,7 @@ const AddMovie = () => {
       }
     return (
         <div>
-                      <button onClick={closeModal}>Add movie</button>
+            <button onClick={openModal}>Add movie</button>
 
             
       <Modal
@@ -37,7 +37,6 @@ const AddMovie = () => {
         <form>
           <label for= ''>nom movie</label>
           <input type= 'text' name= '' value= ''   />
-          <button>tab navigation</button>
           <button>add</button>
           <button onClick={closeModal}>cancel</button>
         </form>
