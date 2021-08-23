@@ -5,7 +5,7 @@ const search = () => {
         <div className= "header-container" >
             <h1>MOVIES APP</h1>
             <div className= "search-container" >
-                <input type= "text" name= "" value= ""/>
+                <input type= "text" name= "" value= "" className="inp"/>
                 <p>rate</p>
             </div>
             

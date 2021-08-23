@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
   }
-  /* body {
+   body {
     background-color: black;
-  } /
+  } 
   .App {
     font-family: "Alata", sans-serif;
     text-align: center;
@@ -24,7 +24,7 @@
   
   .search-container {
     display: flex;
-    / width:80%; /
+    width:80%; 
     align-items: center;
     justify-content: center;
   }
@@ -45,7 +45,7 @@
     padding: 1rem;
   }
   
-  /Movie Card*/
+
   
   .movie-card {
     border-radius: 6px;
@@ -56,8 +56,8 @@
     box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 5%);
   }
   .movie-card > img {
-    width: 100%;
-    height: 400px;
+    width: 350px;
+    height : 400px;
   }
   
   .movie-card > h3,
@@ -66,7 +66,7 @@
     padding: 0.5rem;
   }
   
-  /Form styling/
+
   
   form {
     border-radius: 6px;
@@ -90,7 +90,6 @@
     margin-top: 15px;
   }
   
-  /* general button styling /
   
   .btn {
     outline: 0;
@@ -121,7 +120,6 @@
     left: 0;
   }
   
-  /Annimations /
   
   .fade-out {
     animation: fadeOut ease 2s;
@@ -134,9 +132,7 @@
       opacity: 0;
     }
   }
-  
-  / Responsive  */
-  
+    
   @media (min-width: 750px) {
     form {
       width: calc(100vw / 3);
