@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactModal from 'react-modal';
+import Modal from 'react-modal';
 
 const AddMovie = () => {
     const customStyles = {
@@ -12,7 +12,7 @@ const AddMovie = () => {
           transform: 'translate(-50%, -50%)',
         },
       };
-      ReactModal.setAppElement('#root');
+      Modal.setAppElement('#root');
       
       const [modalIsOpen, setIsOpen] = React.useState(false);
     
