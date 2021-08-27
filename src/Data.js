@@ -18,7 +18,7 @@ export const moviesData = [
     {
         id: Math.random(),
         image:"https://occ-0-784-778.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRkoafH0jI9O_cEKqV-8YxKXqiaiahpufwxJrZFtW1QFmTRFq1DfO2v3uprZaiCzH-zJUli23mI9glQMGTSTQwsvafs.jpg?r=98a",
-        rating:4,
+        rating:3,
         name:"Spider-Man: Homecoming",
         date:"2017",
         desc:"Action,comedy",
@@ -48,7 +48,7 @@ export const moviesData = [
         {
             id: Math.random(),
         image:"https://img6.cdn.cinoche.com/images/42c3432031d8399a011b799d5c052b97.jpg",
-        rating:4,
+        rating:3,
         name:"MOANA",
         date:"2016",
         desc:"ANIMATION",
