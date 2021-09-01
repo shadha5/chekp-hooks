@@ -6,6 +6,7 @@ export const moviesData = [
         name: "PARFUME",
         date: "2006",
         desc: "story of a murderer" ,
+        trailer:"https://www.youtube.com/embed/_-qv0EnGhJU"
     },
     {
         id: Math.random(),
@@ -14,6 +15,7 @@ export const moviesData = [
         name: "VIKING",
         date: "2016",
         desc: "WAR",
+        trailer:"https://www.youtube.com/embed/9GgxinPwAGc",
     },
     {
         id: Math.random(),
@@ -22,6 +24,7 @@ export const moviesData = [
         name:"Spider-Man: Homecoming",
         date:"2017",
         desc:"Action,comedy",
+        trailer:"https://www.youtube.com/embed/n9DwoQ7HWvI",
         
     
         },
@@ -32,7 +35,7 @@ export const moviesData = [
         name:"AFTER",
         date:"2019",
         desc:"ROMANTIC",
-        trailer:"https://www.youtube.com/embed/n9DwoQ7HWvI"
+        trailer:"https://www.youtube.com/embed/95BKJA2QhCc"
     
         },
 
@@ -43,6 +46,7 @@ export const moviesData = [
         name:"365 DAYS",
         date:"2021",
         desc:"ROMANTIC",
+        trailer:"https://www.youtube.com/embed/RHOPy5GRf_o",
     
         },
         {
@@ -52,5 +56,6 @@ export const moviesData = [
         name:"MOANA",
         date:"2016",
         desc:"ANIMATION",
+        trailer:"https://www.youtube.com/embed/LKFuXETZUsI",
         }
     ]

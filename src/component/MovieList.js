@@ -5,11 +5,11 @@ const MovieList = ({films}) => {
     return (
         <div className= "movie-list" >
         {
-            films.map((el)=> <MovieCard card= {el} />)
-        }
-            
-        </div>
-    )
+            films.map((el,i )=> <MovieCard key={i}card={el}/>
+            )
+            }
+    </div>
+    );  
 }
 
-export default MovieList
+export default MovieList;

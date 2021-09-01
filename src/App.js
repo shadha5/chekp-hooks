@@ -5,6 +5,10 @@ import AddMovie from './component/AddMovie';
 import MovieList from './component/MovieList';
 import Search from './component/Search';
 import { moviesData } from './Data';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Descreptions from './component/Descreptions';
+
+
 
 
 
@@ -24,20 +28,27 @@ function App() {
   }
   return (
     <div >
+      <Router>  
       <Search
        searchvalue={ searchvalue}
        handlesearch={handlesearch}
       searchrate={ searchrate}
       handlerate={ handlerate}/>
-      <MovieList films= {movies.filter(
+      <switch>
+      <Route exact path="/descreption/:name" render= {(props) => <Descreptions {...props} movies={movies}/>} />
+      <Route exact path="/" render={() =>  <MovieList films= {movies.filter(
         (movie) => movie.name.toLowerCase() 
       .includes(
         searchvalue.toLowerCase().trim()
       )&&
         movie.rating>=searchrate
       ) 
+      } /> 
       } />
+     
+      </switch>
     <AddMovie handleadd= {handleadd } />
+    </Router>
     </div>
   );
 }
